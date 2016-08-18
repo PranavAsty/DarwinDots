@@ -237,7 +237,6 @@ public class Life extends JPanel
         g2d.fillOval(targetX,targetY,targetDiameter,targetDiameter);
         g2d.setColor(Color.red);
         g2d.fillOval(targetX+5,targetY+5,15,15);
-        g2d.drawRect(0,0,900,600);
         g2d.setColor(Color.gray);
         g2d.fillRect(obstacleX,obstacleY,obstacleWidth,obstacleHeight);
         g2d.setColor(Color.black);
@@ -318,7 +317,7 @@ public class Life extends JPanel
         simulation.initialPopulation();
         frame.add(simulation);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.setSize(new Dimension(1100,800));
+        frame.setSize(new Dimension(900,600));
         frame.setMinimumSize(new Dimension(900,600));
         simulation.repaint();
         frame.setResizable(false);
