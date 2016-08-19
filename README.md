@@ -24,7 +24,7 @@ The gene is an array of forces that are applied to the organism at every iterati
 ## Selection
 We take the fitness value of each individual and normalize it to a value between 0 and 1. We then fill our **mating pool** with each individual and the number of times we add that individual to the mating pool is in the ratio of its normalized fitness.
 
-## Mating(Genetic crossover)
+## Mating (Genetic crossover)
 We have used a single point crossover. This means that one contiguous part of the new gene is from one parent and the rest from the other parent. The point at which the cutting and splicing of the genes is to be done is a random value between 0 and the length of the gene.
  A child gene could look like *AAAAAAAAAAAABBBB*, where A is from the first parent and B is from the second.
 
