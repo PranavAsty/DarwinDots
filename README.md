@@ -28,5 +28,9 @@ We take the fitness value of each individual and normalize it to a value between
 We have used a single point crossover. This means that one contiguous part of the new gene is from one parent and the rest from the other parent. The point at which the cutting and splicing of the genes is to be done is a random value between 0 and the length of the gene.
  A child gene could look like *AAAAAAAAAAAABBBB*, where A is from the first parent and B is from the second.
 
-## Instructions 
-Simply compile the java file **Life.java** and run.
+## Build instructions 
+Run the following commands:
+```
+javac Life.java
+java Life
+```
